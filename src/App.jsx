@@ -6,6 +6,7 @@ import Props from './components/Props'
 import State from './components/State'
 import UseEffect from './components/UseEffect'
 import Fetch_data from './components/Fetch_data'
+import IndianGovt from './components/props_drilling/IndianGovt'
 
 const App = () => {
   return (
@@ -18,7 +19,8 @@ const App = () => {
       <Props name="Ayush" age="30" pincode={452012} /> */}
       {/* <State /> */}
       {/* <UseEffect /> */}
-      <Fetch_data />
+      {/* <Fetch_data /> */}
+      <IndianGovt />
     </div>
   )
 }
