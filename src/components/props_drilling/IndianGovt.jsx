@@ -5,7 +5,7 @@ const IndianGovt = () => {
     const money = "1000"
   return (
     <div>
-        <h3>Indian Govt {money} </h3>
+        <h3>Indian Govt</h3>
         <StateGovt money={money}  />
     </div>
   )

@@ -1,11 +1,11 @@
 import React from 'react'
 import Janta from './Janta'
 
-const Panchayat = () => {
+const Panchayat = ({money}) => {
   return (
     <div>
         <h2>Panchayat</h2>
-        <Janta />
+        <Janta money={money} />
     </div>
   )
 }

@@ -1,11 +1,11 @@
 import React from 'react'
 import Panchayat from './Panchayat'
 
-const Block = () => {
+const Block = ({money}) => {
   return (
     <div>
         <h2>Block</h2>
-        <Panchayat/>
+        <Panchayat money={money}/>
     </div>
   )
 }

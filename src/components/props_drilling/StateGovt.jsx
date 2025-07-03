@@ -4,7 +4,7 @@ import District from './District'
 const StateGovt = ({money}) => {
     return (
         <div>
-            <h2>StateGovt {money}</h2>
+            <h2>StateGovt </h2>
           <District money={money} />
         </div>
     )
